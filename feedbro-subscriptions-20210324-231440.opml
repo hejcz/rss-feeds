@@ -1,38 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="1.0">
-<head>
-<title>Feed Subscriptions</title>
-</head>
-<body>
-      <outline text="Martin Fowler Blog" title="Martin Fowler Blog" type="rss" 
-            xmlUrl="https://martinfowler.com/feed.atom"/>
-      <outline text="Frankel" title="Frankel" type="rss" 
-            xmlUrl="https://blog.frankel.ch/feed.xml" htmlUrl="https://blog.frankel.ch/"/>
-      <outline text="Josh Long" title="Josh Long" type="rss" 
-            xmlUrl="https://joshlong.com/feed.xml" htmlUrl="https://joshlong.com"/>
-      <outline text="Jayway" title="Jayway" type="rss" 
-            xmlUrl="https://blog.jayway.com/rss" htmlUrl="https://blog.jayway.com"/>
-      <outline text="Author of Redis" title="Author of Redis" type="rss" 
-            xmlUrl="http://antirez.com/rss" htmlUrl="
-http://antirez.com
-" maxItems="100"/>
-      <outline text="Graham Lea" title="Graham Lea" type="rss" 
-            xmlUrl="https://www.grahamlea.com/rss" htmlUrl="https://www.grahamlea.com" maxItems="100"/>
-      <outline text="Better dev" title="Better dev" type="rss" 
-            xmlUrl="https://betterdev.link/rss.xml" htmlUrl="https://betterdev.link"/>
-      <outline text="Brian Storti" title="Brian Storti" type="rss" 
-            xmlUrl="https://www.brianstorti.com/feed/atom.xml"/>
-      <outline text="Dashbit" title="Dashbit" type="rss" 
-            xmlUrl="https://dashbit.co/feed" htmlUrl="https://dashbit.co/"/>
-      <outline text="Brendan Gregg" title="Brendan Gregg" type="rss" 
-            xmlUrl="www.brendangregg.com/blog/rss.xml" htmlUrl="http://www.brendangregg.com/blog"/>
-      <outline text="Karl Seguin" title="Karl Seguin" type="rss" 
-            xmlUrl="https://www.openmymind.net/atom.xml"/>
-      <outline text="uncle bob" title="uncle bob" type="rss" 
-            xmlUrl="https://blog.cleancoder.com/atom.xml"/>
-      <outline text="Allegro" title="Allegro" type="rss" 
-            xmlUrl="https://blog.allegro.tech/feed.xml" htmlUrl="https://blog.allegro.tech"/>
-      <outline text="BGG" title="BGG" type="rss" 
-            xmlUrl="https://boardgamegeek.com/rss/blog/1" htmlUrl="https://boardgamegeek.com/"/>
-</body>
+    <head>
+        <title>Feeder - RSS Feed Reader</title>
+    </head>
+    <body>
+        <outline text="Martin Fowler Blog" title="Martin Fowler Blog" type="rss"
+                 xmlUrl="https://martinfowler.com/feed.atom" htmlUrl="https://martinfowler.com"
+                 rssfr-favicon="https://icons.feedercdn.com/martinfowler.com" rssfr-updateInterval="600000"/>
+        <outline text="Josh Long" title="Josh Long" type="rss" xmlUrl="https://joshlong.com/feed.xml"
+                 htmlUrl="https://joshlong.com" rssfr-favicon="https://icons.feedercdn.com/joshlong.com"
+                 rssfr-updateInterval="600000"/>
+        <outline text="Jayway" title="Jayway" type="rss" xmlUrl="https://blog.jayway.com/feed/"
+                 htmlUrl="https://blog.jayway.com" rssfr-favicon="https://icons.feedercdn.com/blog.jayway.com"
+                 rssfr-updateInterval="600000"/>
+        <outline text="Author of Redis" title="Author of Redis" type="rss" xmlUrl="http://antirez.com/rss"
+                 htmlUrl="http://antirez.com" rssfr-favicon="https://icons.feedercdn.com/antirez.com"
+                 rssfr-updateInterval="600000"/>
+        <outline text="Graham Lea" title="Graham Lea" type="rss" xmlUrl="https://www.grahamlea.com/feed/"
+                 htmlUrl="https://www.grahamlea.com" rssfr-favicon="https://icons.feedercdn.com/www.grahamlea.com"
+                 rssfr-updateInterval="600000"/>
+        <outline text="Better dev" title="Better dev" type="rss" xmlUrl="https://betterdev.link/rss.xml"
+                 htmlUrl="https://betterdev.link" rssfr-favicon="https://icons.feedercdn.com/betterdev.link"
+                 rssfr-updateInterval="600000"/>
+        <outline text="Brian Storti" title="Brian Storti" type="rss" xmlUrl="https://www.brianstorti.com/feed/atom.xml"
+                 rssfr-favicon="https://icons.feedercdn.com/www.brianstorti.com" rssfr-updateInterval="600000"/>
+        <outline text="Dashbit" title="Dashbit" type="rss" xmlUrl="https://dashbit.co/feed"
+                 htmlUrl="https://dashbit.co/" rssfr-favicon="https://icons.feedercdn.com/dashbit.co"
+                 rssfr-updateInterval="600000"/>
+        <outline text="Brendan Gregg" title="Brendan Gregg" type="rss" xmlUrl="http://www.brendangregg.com/blog/rss.xml"
+                 htmlUrl="http://www.brendangregg.com/blog"
+                 rssfr-favicon="https://icons.feedercdn.com/www.brendangregg.com" rssfr-updateInterval="600000"/>
+        <outline text="Karl Seguin" title="Karl Seguin" type="rss" xmlUrl="https://www.openmymind.net/atom.xml"
+                 htmlUrl="http://openmymind.net/" rssfr-favicon="https://icons.feedercdn.com/openmymind.net"
+                 rssfr-updateInterval="600000"/>
+        <outline text="uncle bob" title="uncle bob" type="rss" xmlUrl="https://blog.cleancoder.com/atom.xml"
+                 htmlUrl="http://blog.cleancoder.com/" rssfr-favicon="https://icons.feedercdn.com/blog.cleancoder.com"
+                 rssfr-updateInterval="600000"/>
+        <outline text="Allegro" title="Allegro" type="rss" xmlUrl="https://blog.allegro.tech/feed.xml"
+                 htmlUrl="https://blog.allegro.tech" rssfr-favicon="https://icons.feedercdn.com/blog.allegro.tech"
+                 rssfr-updateInterval="600000"/>
+        <outline text="The Netflix Tech Blog" title="The Netflix Tech Blog" type="rss"
+                 xmlUrl="http://techblog.netflix.com/feeds/posts/default" htmlUrl="http://techblog.netflix.com/"
+                 rssfr-favicon="https://icons.feedercdn.com/techblog.netflix.com" rssfr-updateInterval="600000"/>
+        <outline text="Dropbox Tech Blog" title="Dropbox Tech Blog" type="rss"
+                 xmlUrl="https://blogs.dropbox.com/tech/feed/" htmlUrl="https://dropboxtechblog.wordpress.com"
+                 rssfr-favicon="https://icons.feedercdn.com/dropboxtechblog.wordpress.com"
+                 rssfr-updateInterval="600000"/>
+        <outline text="Mozilla Hacks – the Web developer blog" title="Mozilla Hacks – the Web developer blog" type="rss"
+                 xmlUrl="https://hacks.mozilla.org/feed/" htmlUrl="https://hacks.mozilla.org"
+                 rssfr-favicon="https://icons.feedercdn.com/hacks.mozilla.org" rssfr-updateInterval="600000"/>
+        <outline title="kickstarter" text="kickstarter">
+            <outline text="Kickstarter: Frosthaven" title="Kickstarter: Frosthaven" type="rss"
+                     xmlUrl="https://www.kickstarter.com/projects/frosthaven/frosthaven/posts.atom"
+                     htmlUrl="https://www.kickstarter.com/projects/frosthaven/frosthaven/posts"
+                     rssfr-favicon="https://icons.feedercdn.com/www.kickstarter.com" rssfr-updateInterval="600000"/>
+            <outline text="Kickstarter: Merchants of the Dark Road" title="Kickstarter: Merchants of the Dark Road"
+                     type="rss"
+                     xmlUrl="https://www.kickstarter.com/projects/brentdickman/merchants-of-the-dark-road/posts.atom"
+                     htmlUrl="https://www.kickstarter.com/projects/brentdickman/merchants-of-the-dark-road/posts"
+                     rssfr-favicon="https://icons.feedercdn.com/www.kickstarter.com" rssfr-updateInterval="600000"/>
+            <outline text="Kickstarter: Planet Unknown" title="Kickstarter: Planet Unknown" type="rss"
+                     xmlUrl="https://www.kickstarter.com/projects/adamsapplegames/planet-unknown/posts.atom"
+                     htmlUrl="https://www.kickstarter.com/projects/adamsapplegames/planet-unknown/posts"
+                     rssfr-favicon="https://icons.feedercdn.com/www.kickstarter.com" rssfr-updateInterval="600000"/>
+            <outline text="Kickstarter: Night Parade of a Hundred Yokai"
+                     title="Kickstarter: Night Parade of a Hundred Yokai" type="rss"
+                     xmlUrl="https://www.kickstarter.com/projects/luisbrueh/night-parade-of-a-hundred-yokai/posts.atom"
+                     htmlUrl="https://www.kickstarter.com/projects/luisbrueh/night-parade-of-a-hundred-yokai/posts"
+                     rssfr-favicon="https://icons.feedercdn.com/www.kickstarter.com" rssfr-updateInterval="600000"/>
+            <outline text="Kickstarter: The Age of Atlantis" title="Kickstarter: The Age of Atlantis" type="rss"
+                     xmlUrl="https://www.kickstarter.com/projects/eldoradogames/the-age-of-atlantis/posts.atom"
+                     htmlUrl="https://www.kickstarter.com/projects/eldoradogames/the-age-of-atlantis/posts"
+                     rssfr-favicon="https://icons.feedercdn.com/www.kickstarter.com" rssfr-updateInterval="600000"/>
+            <outline text="Kickstarter: Fire Tower: Rising Flames Expansion + Reprint 🔥"
+                     title="Kickstarter: Fire Tower: Rising Flames Expansion + Reprint 🔥" type="rss"
+                     xmlUrl="https://www.kickstarter.com/projects/575448464/fire-tower-rising-flames-expansion-reprint/posts.atom"
+                     htmlUrl="https://www.kickstarter.com/projects/575448464/fire-tower-rising-flames-expansion-reprint/posts"
+                     rssfr-favicon="https://icons.feedercdn.com/www.kickstarter.com" rssfr-updateInterval="600000"/>
+            <outline text="Kickstarter: Dodos Riding Dinos" title="Kickstarter: Dodos Riding Dinos" type="rss"
+                     xmlUrl="https://www.kickstarter.com/projects/detestablegames/dodos-riding-dinos/posts.atom"
+                     htmlUrl="https://www.kickstarter.com/projects/detestablegames/dodos-riding-dinos/posts"
+                     rssfr-favicon="https://icons.feedercdn.com/www.kickstarter.com" rssfr-updateInterval="600000"/>
+            <outline text="Kickstarter: Perseverance: Castaway Chronicles"
+                     title="Kickstarter: Perseverance: Castaway Chronicles" type="rss"
+                     xmlUrl="https://www.kickstarter.com/projects/mindclash/perseverance-castaway-chronicles/posts.atom"
+                     htmlUrl="https://www.kickstarter.com/projects/mindclash/perseverance-castaway-chronicles/posts"
+                     rssfr-favicon="https://icons.feedercdn.com/www.kickstarter.com" rssfr-updateInterval="600000"/>
+            <outline text="Kickstarter: Radlands ☢️" title="Kickstarter: Radlands ☢️" type="rss"
+                     xmlUrl="https://www.kickstarter.com/projects/roxley/radlands/posts.atom"
+                     htmlUrl="https://www.kickstarter.com/projects/roxley/radlands/posts"
+                     rssfr-favicon="https://icons.feedercdn.com/www.kickstarter.com" rssfr-updateInterval="600000"/>
+            <outline text="Kickstarter: Zombicide: Undead or Alive" title="Kickstarter: Zombicide: Undead or Alive"
+                     type="rss" xmlUrl="https://www.kickstarter.com/projects/cmon/zombicide-undead-or-alive/posts.atom"
+                     htmlUrl="https://www.kickstarter.com/projects/cmon/zombicide-undead-or-alive/posts"
+                     rssfr-favicon="https://icons.feedercdn.com/www.kickstarter.com" rssfr-updateInterval="600000"/>
+            <outline text="Kickstarter: Mythic Battles : Ragnarök" title="Kickstarter: Mythic Battles : Ragnarök"
+                     type="rss"
+                     xmlUrl="https://www.kickstarter.com/projects/806316071/mythic-battles-ragnarok/posts.atom"
+                     htmlUrl="https://www.kickstarter.com/projects/806316071/mythic-battles-ragnarok/posts"
+                     rssfr-favicon="https://icons.feedercdn.com/www.kickstarter.com" rssfr-updateInterval="600000"/>
+        </outline>
+    </body>
 </opml>
